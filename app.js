@@ -10,6 +10,8 @@ const server = http.createServer(async function (req, res) {
     res.setHeader('Content-Type', 'text/html');
     res.end('Hello World');
 });
+
+console.log(1);
 server.listen(PORT, hostname, () => {
   console.log(`Server running on${PORT}`);
 });
